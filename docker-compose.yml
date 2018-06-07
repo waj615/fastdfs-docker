@@ -27,7 +27,7 @@ services:
   #     - /var/fdfs/storage1:/var/fdfs
   #  storage2:
   #   container_name: storage2
-  #   image: luhuiguo/fastdfs
+  #   image: waj615/fastdfs
   #   command: storage
   #   network_mode: host  
   #   environment:
