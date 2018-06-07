@@ -3,7 +3,7 @@ FROM centos:7
 LABEL maintainer "waj_615@qq.com"
 
 ENV FASTDFS_PATH=/opt/fdfs \
-    FASTDFS_BASE_PATH=/home/yuqing/fastdfs \
+    FASTDFS_BASE_PATH=/var/fdfs \
     PORT= \
     GROUP_NAME= \
     TRACKER_SERVER=

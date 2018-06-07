@@ -6,7 +6,7 @@ services:
     command: tracker
     network_mode: host
     volumes:   
-      - /var/fdfs/tracker:/home/yuqing/fastdfs   
+      - /var/fdfs/tracker:/var/fdfs   
   storage0:
     container_name: storage0
     image: waj615/fastdfs
@@ -15,7 +15,7 @@ services:
     environment:
       - TRACKER_SERVER=fastdfs-tracker:22122
     volumes: 
-      - /var/fdfs/storage0:/home/yuqing/fastdfs
+      - /var/fdfs/storage0:/var/fdfs
   # storage1:
   #   container_name: storage1
   #   image: luhuiguo/fastdfs
@@ -24,7 +24,7 @@ services:
   #   environment:
   #     - TRACKER_SERVER=fastdfs-tracker:22122
   #   volumes: 
-  #     - /var/fdfs/storage1:/home/yuqing/fastdfs1
+  #     - /var/fdfs/storage1:/var/fdfs1
   #  storage2:
   #   container_name: storage2
   #   image: waj615/fastdfs
@@ -35,5 +35,5 @@ services:
   #     - GROUP_NAME=group2
   #     - PORT=24000
   #   volumes: 
-  #     - /var/fdfs/storage2:/home/yuqing/fastdfs2           
+  #     - /var/fdfs/storage2:/var/fdfs2           
                     
