@@ -24,7 +24,7 @@ services:
   #   environment:
   #     - TRACKER_SERVER=fastdfs-tracker:22122
   #   volumes: 
-  #     - /var/fdfs/storage1:/var/fdfs1
+  #     - /var/fdfs/storage1:/var/fdfs
   #  storage2:
   #   container_name: storage2
   #   image: waj615/fastdfs
@@ -35,5 +35,5 @@ services:
   #     - GROUP_NAME=group2
   #     - PORT=24000
   #   volumes: 
-  #     - /var/fdfs/storage2:/var/fdfs2           
+  #     - /var/fdfs/storage2:/var/fdfs          
                     
