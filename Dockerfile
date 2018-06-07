@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL maintainer "luhuiguo@gmail.com"
+LABEL maintainer "waj@qq.com"
 
 ENV FASTDFS_PATH=/opt/fdfs \
     FASTDFS_BASE_PATH=/var/fdfs \
